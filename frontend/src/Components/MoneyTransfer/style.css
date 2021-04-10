@@ -1,0 +1,107 @@
+#trans-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('C:\Users\Gourav\Desktop\vscode\CQ React\banksystem\front\src\Components\Images\background.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+h1{
+    font-size: 35px;
+}
+.err{
+	background: red;
+    opacity: 0.8;
+    font-weight: 500;
+	padding: 0px 22px;
+}
+#show{
+	display:block;
+}
+#notShow{
+	display:none;
+}
+select:disabled {
+    opacity: 0.5;
+}
+.hide{
+	display:none;
+}
+#from{
+    border-radius: 10px;
+    line-height: 40px;
+}
+#from ul{
+    list-style: none;
+}
+h5{
+	display: inline;
+}
+select{
+    border-radius: 5px;
+    background: limegreen;
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 2px;
+    outline: none;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+select:hover{
+color: limegreen;
+    background: #fff;
+}
+.butn{
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 15px;
+	margin-left: 20px;
+}
+h3{
+    margin: 10px 0px;
+}
+#two-person{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    place-items: center;
+    font-family: cursive;
+    line-height: 40px;
+}
+#two-person h4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#two-person ul{
+    list-style: none;
+}
+#ul-one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#ul-svg{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#ul-two{
+grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
