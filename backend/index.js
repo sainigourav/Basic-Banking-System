@@ -5,7 +5,7 @@ var body_parser = require("body-parser");
 var mongodb = require("mongodb").MongoClient;
 const { ObjectId } = require("mongodb");
 
-// --------DB connection-------
+// --------DB connection---------
 var url = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 mongodb.connect(url, function (err, db) {
   if (err) {
