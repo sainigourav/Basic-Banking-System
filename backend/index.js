@@ -6,7 +6,7 @@ var mongodb = require("mongodb").MongoClient;
 const { ObjectId } = require("mongodb");
 
 // --------DB connection---------
-var url = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
+var url = "mongodb://localhost:----/?*******";
 mongodb.connect(url, function (err, db) {
   if (err) {
     throw err;
